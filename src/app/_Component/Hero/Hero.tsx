@@ -2,11 +2,11 @@ import { Search } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <div className="w-full bg-[#f0f0e1] p-3">
+    <div className="w-full bg-[#f0f0e1] sm:p-3 py-3 px-1">
       <main className="flex flex-col items-center justify-center text-center max-w-3xl sm:gap-3 gap-1 m-auto sm:p-6 px-1 py-6">
         <h1 className="text-3xl md:text-5xl lg:text-7xl text-[#2d1b69] font-bold">Discover Your Next</h1>
         <h2 className="text-2xl md:text-4xl lg:text-6xl text-[#ffa94d] font-bold">Favorite Recipe</h2>
-        <p className="md:text-xl sm:text-lg text-sm text-gray-400">
+        <p className="md:text-xl sm:text-lg text-sm text-gray-400 sm:px-4 px-2  ">
           AI-powered recipe recommendations tailored to your tase, dietary
           preferences, and available ingredients.
         </p>

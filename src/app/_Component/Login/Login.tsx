@@ -22,7 +22,7 @@ export default function Login() {
                     </button>
                 </form>
                 <div className="mt-4 text-center">
-                    <a href="#" className="text-blue-500 hover:underline text-sm">
+                    <a href="/Dashboard" className="text-blue-500 hover:underline text-sm">
                         Forgot your password?
                     </a>
                 </div>
